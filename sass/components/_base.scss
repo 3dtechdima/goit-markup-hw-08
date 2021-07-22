@@ -1,0 +1,89 @@
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+h2 {
+  font-weight: bold;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+button {
+  border: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+.link {
+  text-decoration: none;
+  transition-property: background-color, color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn {
+  border: none;
+  background: var(--brand-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  letter-spacing: 0.06em;
+  color: white;
+  transition-property: background-color, color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 15px;
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }
+}
+
+// .section {
+//   padding-top: 94px;
+//   padding-bottom: 94px;
+// }
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.link:hover {
+  color: var(--brand-color);
+}

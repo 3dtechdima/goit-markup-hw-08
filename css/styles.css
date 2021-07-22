@@ -1,0 +1,90 @@
+/* @media screen and (max-width: 1199px) {
+  .section.section-doing {
+    display: none;
+  }
+}
+@media screen and (min-width: 480px) {
+  .section-advantages {
+    width: 100%;
+
+    background-color: orange;
+  }
+  .shelf-image {
+    justify-content: center;
+    padding-left: 190px;
+    max-width: 450px;
+    height: 120px;
+  }
+  .list-position {
+    max-width: 450px;
+  }
+  .social-networks.networks-card {
+    margin-bottom: 10px;
+  }
+  .description-benefits__list {
+    justify-content: center;
+  }
+  /* .advantages-text__paragraph {
+    width: 450px;
+  } */
+/* }
+
+@media screen and (min-width: 768px) {
+  .section-advantages {
+    background-color: indianred;
+  }
+  .advantages-text__paragraph {
+    width: 354px;
+  }
+
+  .description-benefits__list {
+    max-width: 354px;
+  }
+  .shelf-image {
+    justify-content: center;
+    padding-left: 0px;
+    max-width: 354px;
+    height: 120px;
+    background-color: indigo;
+  }
+  .description-benefits {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .list-position {
+    max-width: 354px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .section-advantages {
+    background-color: green;
+  }
+  .shelf-image__icons {
+    justify-content: center;
+    max-width: 270px;
+  }
+  .shelf-image {
+    padding-left: 100px;
+  }
+
+  .team-list {
+    margin-left: 30px;
+    display: flex;
+    text-align: center;
+  }
+  .description-benefits {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .shelf-image {
+    width: 270px;
+    height: 120px;
+  }
+  .advantages-text {
+    width: 270px;
+  }
+  .description-benefits__list {
+    margin: 0 auto;
+  }
+/* } */

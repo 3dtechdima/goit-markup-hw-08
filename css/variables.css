@@ -1,0 +1,11 @@
+:root {
+  --brand-color: #2196f3;
+  --hover-color: #188ce8;
+  --text-color: #757575;
+  --title-text-color: #212121;
+  --bgcolor-section: #2f303a;
+  --bgcolor-main-section: rgb(255, 255, 255);
+  --font-family-roboto: Roboto;
+  --font-family-raleway: Raleway;
+}
+/*# sourceMappingURL=variables.css.map */
